@@ -1,0 +1,20 @@
+Esta es solo una prueba del algoritmo de verificacion de error conocido
+como CRC (Cyclic Redundancy Check) de 32 bits. Es decir genera un numero
+de 32 bits (en hexadecimal) para cada paquete de datos. En este caso es
+un archivo:
+
+El modo de operar es el siguiente:
+
+Desde el MS-DOS SHELL
+
+C:\>CRC32 <nombre del archivo.extension>
+
+Ejemplo:  
+
+c:\>CRC32 crc32.c
+crc32 = 292E1496 para el archivo "rcr32.c"
+
+
+Cambiar el primer bit de '1' a  '0' (de Izq. a derecha)
+-----------------------------------------------
+10000101010010101000101010010101
