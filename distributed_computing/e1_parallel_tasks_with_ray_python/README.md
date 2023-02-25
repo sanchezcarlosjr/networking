@@ -2,6 +2,9 @@
 This minitutorial teachs you how can you make a cluster in your local network, that is, a "Hello World" project distributed.
 
 0. Use venv for avoid version problems. https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+```bash
+  virtualenv venv --python=python3.10.9
+```
 
 1. Install Roy on each node.
 ```bash
