@@ -35,6 +35,7 @@ NOTE: Consider that each node must name different to watch correct results.
 
 # References
 Nishihara, Robert. "Modern Parallel and Distributed Python: A Quick Tutorial on Ray." Medium, 9 Feb. 2022, towardsdatascience.com/modern-parallel-and-distributed-python-a-quick-tutorial-on-ray-99f8d70369b8.
+"Getting Started Guide — Ray 2.3.0." 24 Feb. 2023, docs.ray.io/en/latest/ray-overview/getting-started.html#ray-cluster-quick-start.
 
 # Learn more
 Check out my free notes on Distributed computing.
