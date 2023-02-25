@@ -21,7 +21,7 @@ This minitutorial teachs you how can you make a cluster in your local network, t
    ray start --address='ADDRESS:PORT'
 ```
 
-4. Run the code on the head node. It's going to coordinate the workers. You should consult your on-promise cluster on Ray Dashboard. https://docs.ray.io/en/latest/ray-core/ray-dashboard.html#ray-dashboard
+4. Run the code only on the head node. It's going to coordinate the workers. You should consult your on-promise cluster on Ray Dashboard. https://docs.ray.io/en/latest/ray-core/ray-dashboard.html#ray-dashboard
 ```bash
    python parallel_tasks.py
 ```
