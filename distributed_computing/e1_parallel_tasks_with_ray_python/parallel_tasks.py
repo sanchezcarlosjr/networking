@@ -29,6 +29,7 @@ def wait_for_nodes(expected):
 
 
 def main():
+    print(list(map(lambda x: x['NodeName'], ray.nodes())))
     wait_for_nodes(2)
 
     # Check that objects can be transferred from each node to each other node.
@@ -40,11 +41,10 @@ def main():
 
     print("Success!")
     sys.stdout.flush()
-    time.sleep(20)
 
 # Start Ray.
 # Calling ray.init() on any of the cluster machines will connect to the same Ray cluster (https://docs.ray.io/en/latest/ray-core/starting-ray.html)
 # If you don't have any cluster, this will execute only on your machine.
 if __name__ == "__main__":
-    ray.init(address="localhost:6379")
+    ray.init(address='auto')
     main()
